@@ -1,0 +1,48 @@
+@import url("./slider//slider.css");
+@import url("./styles/header.css");
+@import url("./styles/description.css");
+@import url("./styles/agemark.css");
+
+@font-face {
+  font-family: 'KyivTypeTitling';
+  src: url('./fonts/KyivTypeTitling-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Regular.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Medium.eot');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-SemiBold.eot');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+:root {
+  --header-text-color: #C8C8C8;
+  --primary-light-color: #FFFFFF;
+  --main-text-color: #A7A6A6;
+  --details-red: #D40D1F;
+  --button-hover: #d40d1e9e;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+

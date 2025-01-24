@@ -1,0 +1,51 @@
+footer {
+    position: absolute;
+    bottom: 4.4vh;
+    left: -9vh;
+}
+  
+  
+  .swiper {
+    width: 98.4vh;
+    min-height: 26vh;
+  }
+  
+  .swiper-slide {
+    width: 13.4vh;
+    height: 100%;
+  }
+
+  .slide-image {
+    width: 100%;
+    height: 17vh;
+    margin-top: 8.16vh;
+  }
+
+  .slider-buttons {
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    top: 3.5vh;
+    min-width: 15vh;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    color: transparent !important;
+    background-image: url(./icons/arrow-right.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 5.7vh;
+  }
+
+  .swiper-button-prev {
+    background-image: url(./icons/arrow-left.svg);
+  }
+
+  .slider-description-text {
+    color: var(--primary-light-color);
+    padding-left: 16.6vh;
+    font-size: 2vh;
+    font-weight: 800;
+    letter-spacing: 0.135em;
+  }
