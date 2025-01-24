@@ -102,3 +102,20 @@ new Sketch({
 
 
 
+
+
+const timeline = gsap.timeline();
+
+
+timeline.from(".appering-text", {
+  duration: 1.8,
+  delay: 0.5,
+  opacity: 0,
+  ease: "power4.out",
+  x: 100,
+  skewX: 20,
+  stagger: {
+    amount: 0.4
+  }
+});
+
